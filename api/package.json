@@ -1,0 +1,22 @@
+{
+  "name": "website-back-end",
+  "version": "1.0.0",
+  "description": "This repository is the backend project of the website",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon --experimental-json-modules app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "express": "^4.17.3",
+    "jwt": "^0.2.0",
+    "mongoose": "^6.2.9",
+    "nodemon": "^2.0.15"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  }
+}
